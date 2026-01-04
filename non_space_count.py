@@ -1,4 +1,6 @@
-# This algorithm will find out if any location in the array matches a single white space ‘ ‘. It is a very popular interview question during phone interviews. It helps to gauge if the candidate is well versed with the basics and has basic coding skills.
+# This algorithm will find out if any location in the array matches a single white space ‘ ‘. 
+# It is a very popular interview question during phone interviews. 
+# It helps to gauge if the candidate is well versed with the basics and has basic coding skills.
 
 # Algorithm:
 # 1) Initialize count to 0. 
@@ -22,3 +24,5 @@ for i in range(len(a)):
 
 # Print the number of non-space characters
 print(count)
+
+# Time complexity is O(n), where n is the number of elements in the array since we have to iterate the array once.
